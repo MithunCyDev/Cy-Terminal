@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cy Terminal</title>
+    <link href="node_modules/xterm/css/xterm.css" rel="stylesheet" />
+    
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+
+      #terminal-container {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="terminal-container"></div>
+    <script src="node_modules/xterm/lib/xterm.js"></script>
+    <script src="node_modules/xterm/lib/addons/fit/fit.js"></script>
+    <script src="https://unpkg.com/xterm"></script>
+    <script src="https://unpkg.com/xterm-addon-attach"></script>
+    <script src="Component.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
